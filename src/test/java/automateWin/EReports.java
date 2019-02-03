@@ -36,7 +36,7 @@ void startTest(){
 void passTest(){
 	try {
 		logger = extent.startTest("passTest"); //test name
-		//Assert.assertTrue(true);
+		Assert.assertTrue(true);
 		logger.log(LogStatus.PASS, "Test case passed");
 	} catch (Exception e) {
 		e.getMessage();
